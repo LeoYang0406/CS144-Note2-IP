@@ -1,7 +1,7 @@
-# 4-layer model
+# IP services
 
 ## 4 layers of Internet:
-Application Layer, Transport Layer, Internet Layer and Network Access Layer
+    Application Layer, Transport Layer, Internet Layer and Network Access Layer
     Transport layer: TCP - Transmission control protocol
     Network layer:  to deliver packets from end to end acrossing the Internet from the sources to the destination
     Link layer: to carry data one link at a time (Ethernet & WiFi)
@@ -18,7 +18,7 @@ Application Layer, Transport Layer, Internet Layer and Network Access Layer
     
     对于不需要保证数据完整性和顺序的应用，可以用UDP(user datagram protocol) instead of TCP
     
-### IP的独特性:
+## IP的独特性:
     IP 是 'thin wrist'
     因为IP是一定要被用到的（if you want to use the Internet）
     但是Link layer和transport layer都有很多其他不同的选择
