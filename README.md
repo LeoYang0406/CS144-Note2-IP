@@ -1,13 +1,10 @@
 # IP services
 
-## 4 layers of Internet:
-    Application Layer, Transport Layer, Internet Layer and Network Access Layer
-    Transport layer: TCP - Transmission control protocol
-    Network layer:  to deliver packets from end to end acrossing the Internet from the sources to the destination
-    Link layer: to carry data one link at a time (Ethernet & WiFi)
-    
-    the network layer hands in the datagram
-    the link layer helps it to transmit the datagram over one link (可以理解为link层为network层提供service)
+## 4 Properties:
+   Datagram: individually routed packets, hop-by-hop routing
+   Unreliable: packets may be dropped
+   Best effort: 只在必要的时候才会make errors like dropping packets
+   Connectionless: No per-flow state. Packets may be mis-sequenced.
     
 ## TCP/IP的关系:
     TCP是transport layer的transmission control protocol
