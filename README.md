@@ -1,7 +1,7 @@
 # 4-layer model
 
 ## 4 layers of Internet:
-    Application Layer, Transport Layer, Internet Layer and Network Access Layer
+Application Layer, Transport Layer, Internet Layer and Network Access Layer
     Transport layer: TCP - Transmission control protocol
     Network layer:  to deliver packets from end to end acrossing the Internet from the sources to the destination
     Link layer: to carry data one link at a time (Ethernet & WiFi)
