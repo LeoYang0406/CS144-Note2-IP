@@ -6,7 +6,7 @@
     Best effort: 只在必要的时候才会make errors like dropping packets
     Connectionless: No per-flow state. Packets may be mis-sequenced.
     
-## 为什么IP这么simple:
+## 为什么IP is so simple:
     1. Simple means faster & lower cost
     2. End-to-end principle
     3. Allow a variety of reliable services built on top(因为即使IP能够保证每一次传输的完整，这个特性对一些application并非是有利的)
