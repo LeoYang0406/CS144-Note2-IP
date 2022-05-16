@@ -1,10 +1,10 @@
 # IP services
 
 ## 4 Properties:
-   Datagram: individually routed packets, hop-by-hop routing
-   Unreliable: packets may be dropped
-   Best effort: 只在必要的时候才会make errors like dropping packets
-   Connectionless: No per-flow state. Packets may be mis-sequenced.
+    Datagram: individually routed packets, hop-by-hop routing
+    Unreliable: packets may be dropped
+    Best effort: 只在必要的时候才会make errors like dropping packets
+    Connectionless: No per-flow state. Packets may be mis-sequenced.
     
 ## TCP/IP的关系:
     TCP是transport layer的transmission control protocol
